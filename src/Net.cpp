@@ -132,6 +132,7 @@ namespace mn {
             cv::Mat product = weights[i] * layer[i] + bias[i];
             layer[i+1] = activationFunction(product, activation_function);
         }
+        calcLoss(layer[layer.size() -1], target, output_error, loss);
     }
 
     // Compute delta error
