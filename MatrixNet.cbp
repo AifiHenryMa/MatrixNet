@@ -34,10 +34,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Function.h" />
 		<Unit filename="include/Net.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Function.cpp" />
 		<Unit filename="src/Net.cpp" />
 		<Extensions>
 			<code_completion />
