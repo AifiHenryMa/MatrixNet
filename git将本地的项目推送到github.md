@@ -40,7 +40,7 @@ git commit -m "xxxxx(描述)" // 将提交到缓存区的所有文件添加到�
 
 # 三、在Github官网中点击New repository创建远程仓库
 
-- 第一步：填入Repository name之后，点击Create repository即可(最好不要勾选上初始化README.md后面命令有些影响)。
+- 第一步：填入Repository name之后，点击Create repository即可(勾选上初始化README.md)。
 
 - 第二步：将完成之后页面中所显示的SSH连接地址拷贝。如：git@github.com:Github用户名/仓库名.git
 
@@ -59,6 +59,7 @@ git commit -m "xxxxx(描述)" // 将提交到缓存区的所有文件添加到�
 
 - 第三步：将本地仓库上传到GitHub上
 ```
+-------使用命令：git pull --rebase origin master // 解决GitHub远程仓库中的README.md文件不在本地仓库中的问题
 -------使用命令：git push -u origin master
 ```
 
